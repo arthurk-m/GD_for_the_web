@@ -1,0 +1,43 @@
+body {
+    height: 800px;
+}
+
+.triangle {
+    position: relative;
+    width:0;
+    border-bottom:solid 50px black;
+    border-right:solid 30px transparent;
+    border-left:solid 30px transparent;
+}
+.triangle .outline {
+    overflow: hidden;
+    position: absolute;
+    top:9px;
+    left:-21px;
+    width:0;
+    border-bottom:solid 36px white;
+    border-right:solid 21px transparent;
+    border-left:solid 21px transparent;
+    z-index: 3;
+}
+
+/* Scroll bar  */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
