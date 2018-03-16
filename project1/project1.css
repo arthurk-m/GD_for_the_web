@@ -69,6 +69,11 @@ h1 {
     width: 100%;
 }
 
+.date {
+    transform: rotate(-90deg);
+    position: fixed;
+    z-index: 2000;
+}
 /* id-elements */
 
 #coral1 {
