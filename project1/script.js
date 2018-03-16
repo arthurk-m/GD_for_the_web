@@ -99,6 +99,12 @@ $(window).scroll(function(){
     }
   });
 
+  $(window).scroll(function(){
+    if($(document).scrollTop() < 2100){
+      $('#coral-wrap').show();
+    }
+  });
+//
 
 $(window).scroll(function(){
     if($(document).scrollTop() > 2200){
@@ -107,10 +113,24 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
+    if($(document).scrollTop() < 2200){
+      $('#coral-leaf').show();
+    }
+  });
+//
+  $(window).scroll(function(){
     if($(document).scrollTop() > 3200){
       $('#coral-leaf2').hide();
     }
   });
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() < 3200){
+      $('#coral-leaf2').show();
+    }
+  });
+
+  //
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 2500){
@@ -119,10 +139,26 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
+    if($(document).scrollTop() < 2500){
+      $('#coral-leaf3').show();
+    }
+  });
+
+  //
+
+  $(window).scroll(function(){
     if($(document).scrollTop() > 2700){
       $('#coral-leaf4').hide();
     }
   });
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() < 2700){
+      $('#coral-leaf4').show();
+    }
+  });
+
+  //
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 2900){
@@ -131,11 +167,27 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
+    if($(document).scrollTop() < 2900){
+      $('#coral-leaf5').show();
+    }
+  });
+
+  //
+
+  $(window).scroll(function(){
     if($(document).scrollTop() > 2910){
       $('#rock').hide();
     }
   });
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() < 2910){
+      $('#rock').show();
+    }
+  });
   
+  //
+
   $(window).scroll(function(){
     if($(document).scrollTop() > 1560){
       $('#rock2').hide();
@@ -143,10 +195,26 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
+    if($(document).scrollTop() < 1560){
+      $('#rock2').show();
+    }
+  });
+
+  //
+  
+  $(window).scroll(function(){
     if($(document).scrollTop() > 3000){
       $('#bubble').hide();
     }
   });
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() < 3000){
+      $('#bubble').show();
+    }
+  });
+
+  //
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 3100){
@@ -155,10 +223,26 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
+    if($(document).scrollTop() < 3100){
+      $('#bubbles2').show();
+    }
+  });
+
+  //
+
+  $(window).scroll(function(){
     if($(document).scrollTop() > 1950){
       $('#fish').hide();
     }
   });
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() < 1950){
+      $('#fish').show();
+    }
+  });
+
+  //
 
   $(window).scroll(function(){
     if($(document).scrollTop() > 2850){
@@ -167,13 +251,35 @@ $(window).scroll(function(){
   });
 
   $(window).scroll(function(){
+    if($(document).scrollTop() < 2850){
+      $('#fish2').show();
+    }
+  });
+
+  //
+
+  $(window).scroll(function(){
     if($(document).scrollTop() > 1780){
       $('#star').hide();
     }
   });
 
   $(window).scroll(function(){
+    if($(document).scrollTop() < 1780){
+      $('#star').show();
+    }
+  });
+
+  //
+
+  $(window).scroll(function(){
     if($(document).scrollTop() > 2350){
       $('#star2').hide();
+    }
+  });
+
+  $(window).scroll(function(){
+    if($(document).scrollTop() < 2350){
+      $('#star2').show();
     }
   });
