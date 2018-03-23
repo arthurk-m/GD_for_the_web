@@ -70,9 +70,9 @@ body {
 } */
 
 /* Handle on hover */
-/* ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-} */
+::-webkit-scrollbar-thumb:hover {
+    background: #000; 
+}
 
 h1 {
     font-family: "matrix-ii", serif;
