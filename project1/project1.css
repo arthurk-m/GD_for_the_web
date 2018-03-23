@@ -5,7 +5,8 @@
 }
 
 body {
-    height: 12000px;
+    height: 5000px;
+    font-family: matrix-ii;
 }
 
 
@@ -69,18 +70,32 @@ h1 {
     width: 100%;
 }
 
-.date {
+/* .date {
     transform: rotate(-90deg);
     position: fixed;
     z-index: 2000;
+} */
+#year{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding-right: 50px;
+    z-index: 8100;
 }
 /* id-elements */
 
 #coral1 {
     position: fixed;
-    padding-top: 500px;
-    padding-left: 100px;
-    z-index: 100;
+    /* padding-top: 335px;
+    padding-left: 5px; */
+    z-index: 300;
+}
+
+#coralimage3 {
+    position: fixed;
+    /* padding-top: 350px;
+    padding-left: 800px; */
+    z-index: -1000;
 }
 
 #coral2 {
@@ -92,8 +107,8 @@ h1 {
 
 #coral3 {
     position: fixed;
-    padding-top: 400px;
-    padding-left: 600px;
+    padding-top: 350px;
+    padding-left: 500px;
     z-index: 300;
 }
 
@@ -114,8 +129,8 @@ h1 {
 #coral-wrap {
     position: fixed;
     padding-top: 300px;
-    padding-left: 400px;
-    z-index: 600;
+    padding-left: 300px;
+    z-index: 200;
 }
 
 #coral-leaf {
@@ -136,7 +151,7 @@ h1 {
     position: fixed;
     padding-top: 300px;
     padding-left: 150px;
-    z-index: 900;
+    z-index: 200;
 }
 
 #coral-leaf4 {
@@ -149,7 +164,7 @@ h1 {
 #coral-leaf5 {
     position: fixed;
     padding-top: 500px;
-    padding-right: 75%;
+    padding-right: 70%;
     z-index: 1100;
     transform: scaleX(-1);
 }
@@ -158,14 +173,14 @@ h1 {
     position: fixed;
     padding-top: 600px;
     padding-left: 300px;
-    z-index: 1200;
+    z-index: 3000;
 }
 
 #rock2 {
     position: fixed;
     padding-top: 600px;
     padding-left: 600px;
-    z-index: 1300;
+    z-index: 2300;
 }
 
 #bubble {
@@ -186,13 +201,13 @@ h1 {
     position: fixed;
     padding-top: 500px;
     padding-left: 400px;
-    z-index: 1600;
+    z-index: 3500;
 }
 
 #fish2 {
     position: fixed;
-    padding-top: 600px;
-    padding-left: 1200px;
+    padding-top: 500px;
+    padding-left: 1100px;
     z-index: 1700;
 }
 
@@ -208,4 +223,122 @@ h1 {
     padding-top: 550px;
     padding-left: 650px;
     z-index: 1900;
+}
+
+#coralimage1 {
+    position: fixed;
+    padding-top: 350px;
+    padding-left: 120px;
+    z-index: 400;
+}
+
+#coralimage2 {
+    position: fixed;
+    padding-top: 135px;
+    padding-left: 205px;
+    z-index: 100;
+}
+
+#coralimage5 {
+    position: fixed;
+    padding-top: 110px;
+    padding-left: 950px;
+    z-index: 0;
+}
+
+#coralimage6 {
+    position: fixed;
+    padding-top: 350px;
+    padding-left: 1000px;
+    z-index: 150;
+}
+
+#jellyfish {
+    position: fixed;
+    padding-top: 200px;
+    padding-left: 100px;
+    z-index: 5000;
+}
+
+#goldfish {
+    position: fixed;
+}
+
+#nemo {
+    position: fixed;
+    padding-top: 600px;
+    padding-left: 800px;
+    z-index: 6000; 
+}
+
+#fishswim {
+    position: fixed;
+}
+
+#goldfish2 {
+    position: fixed;
+    padding-left: 700px;
+    padding-top: 500px;
+    z-index: -2000;
+}
+
+#jellyfish2 {
+    position: fixed;
+    padding-left: 700px;
+    padding-top: 275px;
+    z-index: 6000;
+}
+
+#bubblemove1 {
+    position: fixed;
+    padding-top: 450px;
+    z-index: 5000;
+}
+
+#bubblemove2 {
+    position: fixed;
+    padding-left: 400px;
+    padding-top: 500px;
+    z-index: 7000;
+}
+
+#bubblemove3 {
+    position: fixed;
+    padding-left: 700px;
+}
+
+#bubblemove4 {
+    position: fixed;
+    padding-left: 1100px;
+    padding-top: 600px;
+}
+
+/*  */
+
+#coralfacts {
+    position: fixed;
+    visibility: hidden; 
+    height: 60vh;
+    width: 60vw;
+    background: white;
+    z-index: 8000;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    outline: 2px solid black;
+}
+
+.margin {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#fact {
+    font-size: 3em;
+}
+ul{
+    list-style-type: none;
 }
