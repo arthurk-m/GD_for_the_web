@@ -313,13 +313,37 @@ h1 {
     padding-top: 600px;
 }
 
+#bubblemove5 {
+    position: fixed;
+    padding-left: 1100px;
+    padding-top: 600px;
+}
+
+#bubblemove6 {
+    position: fixed;
+    padding-left: 1100px;
+    padding-top: 600px;
+}
+
+#bubblemove7 {
+    position: fixed;
+    padding-left: 1100px;
+    padding-top: 600px;
+}
+
+#bubblemove8 {
+    position: fixed;
+    padding-left: 1100px;
+    padding-top: 600px;
+}
+
 /*  */
 
 #coralfacts {
     position: fixed;
     visibility: hidden; 
     height: 60vh;
-    width: 60vw;
+    width: 40vw;
     background: white;
     z-index: 8000;
     top:0;
@@ -341,4 +365,8 @@ h1 {
 }
 ul{
     list-style-type: none;
+}
+
+#highlight {
+    background: yellow;
 }

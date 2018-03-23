@@ -40,9 +40,12 @@ $(document).ready(function(){
     var bubblemove2 = $("#bubblemove2")
     var bubblemove3 = $("#bubblemove3")
     var bubblemove4 = $("#bubblemove4")
-
+    var bubblemove5 = $("#bubblemove5")
+    var bubblemove6 = $("#bubblemove6")
+    var bubblemove7 = $("#bubblemove7")
+    var bubblemove8 = $("#bubblemove8")
     
-    let things = [coral1, coral2, coral3, coral4, coral5, coral_leaf, coral_leaf2, coral_leaf3, coral_leaf4, coral_leaf5, coral_wrap, coralimage3, coralimage1, coralimage2, rock, rock2, bubble, bubbles2, fish, fish2, star, star2, coralimage5, coralimage6, jellyfish, goldfish, nemo, fishswim, goldfish2, jellyfish2, bubblemove1, bubblemove2, bubblemove3, bubblemove4];
+    let things = [coral1, coral2, coral3, coral4, coral5, coral_leaf, coral_leaf2, coral_leaf3, coral_leaf4, coral_leaf5, coral_wrap, coralimage3, coralimage1, coralimage2, rock, rock2, bubble, bubbles2, fish, fish2, star, star2, coralimage5, coralimage6, jellyfish, goldfish, nemo, fishswim, goldfish2, jellyfish2, bubblemove1, bubblemove2, bubblemove3, bubblemove4, bubblemove5, bubblemove6, bubblemove7, bubblemove8];
     
     things.forEach(function(element){
       let top = Math.random() * $(window).height()
