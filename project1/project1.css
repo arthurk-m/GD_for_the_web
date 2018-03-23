@@ -59,10 +59,14 @@ h1 {
 #fixed-position {
     height: 100%;
 }
+
 .header {
     position: fixed;
     text-align: center;
-    padding-left: 40%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    padding: 10px
 }
 
 .size {
