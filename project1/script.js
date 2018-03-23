@@ -64,6 +64,14 @@ $(document).ready(function(){
       }
     })
 
+// coral facts
+$(window).scroll(function(){
+  if($(document).scrollTop() == 4000){
+    $('#coralfacts').css('visibility') == 'visible';
+    console.log("is this working")
+  }
+});
+  // 
 
 
 
@@ -99,7 +107,7 @@ $(window).bind('mousewheel', function(event) {
   }
   interval += 1
 
-  console.log($(document).scrollTop(), "crap")
+  console.log($(document).scrollTop(),"arthur you got this")
 
   if($(document).scrollTop() == 0){
     $('#year').text(1950)

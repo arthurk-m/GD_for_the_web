@@ -7,6 +7,8 @@
 body {
     height: 5000px;
     font-family: matrix-ii;
+    cursor: url(./asset/fishhook.png) auto, move;
+    cursor: pointer;
 }
 
 
@@ -42,14 +44,14 @@ body {
 ::-webkit-scrollbar-thumb
 {
     -webkit-border-radius: 0;
-    background: white;
+    background: black;
     border: solid #000 2px;
 }
-::-webkit-scrollbar-thumb:
+/* ::-webkit-scrollbar-thumb:
 {
     border: solid #000 1px;
     background: #fff;
-}
+} */
 
 /* width */
 /* ::-webkit-scrollbar {
@@ -379,7 +381,10 @@ h1 {
     right: 0;
     margin: auto;
     outline: 2px solid black;
+    overflow:hidden;
+    overflow:auto;
 }
+
 
 .margin {
     margin-left: 10px;
