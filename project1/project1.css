@@ -366,6 +366,27 @@ h1 {
     padding-top: 600px;
 }
 
+#coralstuff1 {
+    position:fixed;
+    margin: auto;
+}
+
+#coralstuff2 {
+    position: fixed;
+    margin: auto;
+}
+
+#coralstuff3 {
+    position: fixed;
+    margin: auto;
+}
+
+#coralstuff4 {
+    position: fixed;
+    margin: auto;
+}
+
+
 /*  */
 
 #coralfacts {

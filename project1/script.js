@@ -44,8 +44,12 @@ $(document).ready(function(){
     var bubblemove6 = $("#bubblemove6")
     var bubblemove7 = $("#bubblemove7")
     var bubblemove8 = $("#bubblemove8")
+    var coralstuff1 = $('#coralstuff1')
+    var coralstuff2 = $('#coralstuff2')
+    var coralstuff3 = $('#coralstuff3')
+    var coralstuff4 = $('#coralstuff4')
     
-    let things = [coral1, coral2, coral3, coral4, coral5, coral_leaf, coral_leaf2, coral_leaf3, coral_leaf4, coral_leaf5, coral_wrap, coralimage3, coralimage1, coralimage2, rock, rock2, bubble, bubbles2, fish, fish2, star, star2, coralimage5, coralimage6, jellyfish, goldfish, nemo, fishswim, goldfish2, jellyfish2, bubblemove1, bubblemove2, bubblemove3, bubblemove4, bubblemove5, bubblemove6, bubblemove7, bubblemove8];
+    let things = [coralstuff3, coralstuff4, coralstuff1, coralstuff2, coral1, coral2, coral3, coral4, coral5, coral_leaf, coral_leaf2, coral_leaf3, coral_leaf4, coral_leaf5, coral_wrap, coralimage3, coralimage1, coralimage2, rock, rock2, bubble, bubbles2, fish, fish2, star, star2, coralimage5, coralimage6, jellyfish, goldfish, nemo, fishswim, goldfish2, jellyfish2, bubblemove1, bubblemove2, bubblemove3, bubblemove4, bubblemove5, bubblemove6, bubblemove7, bubblemove8];
     
     things.forEach(function(element){
       let top = Math.random() * $(window).height()
@@ -560,6 +564,102 @@ $(window).scroll(function(){
 $(window).scroll(function(){
   if($(document).scrollTop() < 2350){
     $('#coralimage1').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 450){
+    $('#coralstuff1').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 450){
+    $('#coralstuff1').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 520){
+    $('#coralstuff2').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 520){
+    $('#coralstuff2').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 730){
+    $('#coralstuff3').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 730){
+    $('#coralstuff3').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 890){
+    $('#coralstuff4').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 890){
+    $('#coralstuff4').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 1230){
+    $('#bubblemove8').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 1230){
+    $('#bubblemove8').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 1450){
+    $('#bubblemove7').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 1450){
+    $('#bubblemove7').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 1600){
+    $('#bubblemove6').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 1600){
+    $('#bubblemove6').show();
+  }
+});
+//
+$(window).scroll(function(){
+  if($(document).scrollTop() > 2100){
+    $('#bubblemove5').hide();
+  }
+});
+
+$(window).scroll(function(){
+  if($(document).scrollTop() < 2100){
+    $('#bubblemove5').show();
   }
 });
 //
