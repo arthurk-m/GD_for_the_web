@@ -52,8 +52,8 @@ $(document).ready(function(){
     let things = [coralstuff3, coralstuff4, coralstuff1, coralstuff2, coral1, coral2, coral3, coral4, coral5, coral_leaf, coral_leaf2, coral_leaf3, coral_leaf4, coral_leaf5, coral_wrap, coralimage3, coralimage1, coralimage2, rock, rock2, bubble, bubbles2, fish, fish2, star, star2, coralimage5, coralimage6, jellyfish, goldfish, nemo, fishswim, goldfish2, jellyfish2, bubblemove1, bubblemove2, bubblemove3, bubblemove4, bubblemove5, bubblemove6, bubblemove7, bubblemove8];
     
     things.forEach(function(element){
-      let top = Math.random() * $(window).height()
-      let left = Math.random() * $(window).width()
+      let top = (Math.random()) * $(window).height()
+      let left = (Math.random()) * $(window).width()
       let z_index = Math.random() * 8000 
 
       element.css({"padding-top": top, 'padding-left': left, "z-index": z_index, "position": "fixed"})
