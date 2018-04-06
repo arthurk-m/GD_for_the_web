@@ -18,7 +18,7 @@ $('body').click(function() {
 });
 
 $('div').click(function() {
-	$(this).addClass('rotate');
+	$(this).fadeOut();
 });
 
 
