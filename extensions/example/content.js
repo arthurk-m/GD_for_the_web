@@ -17,7 +17,7 @@ $('body').click(function() {
 	$(this).addClass('gradient');
 });
 
-$('.rg_ic.rg_i').click(function() {
+$('div').click(function() {
 	$(this).addClass('rotate');
 });
 
