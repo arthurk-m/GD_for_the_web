@@ -1,0 +1,22 @@
+@font-face {
+    src: url('./asset/Swiss721ExtendedBT.ttf');
+    font-weight: normal;
+    font-family: swiss721extended;
+}
+
+@font-face {
+    src: url('./asset/swz721be.ttf');
+    font-weight: bold;
+    font-family: swiss721extended;
+}
+
+body {
+    font-family: swiss721extended;
+}
+
+.outlined {
+    color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}

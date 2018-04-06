@@ -61,7 +61,7 @@ $(document).ready(function(){
 
     $(window).click(function(){
       if($('#coralfacts').css('visibility') == 'visible'){
-        console.log("asdfasd")
+        // console.log("asdfasd")
         $('#coralfacts').css({"visibility": "hidden"})
       }else{
         $('#coralfacts').css({"visibility": "visible"})
