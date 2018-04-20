@@ -37,7 +37,6 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     width: 100%;
-    max-width: 10vw;
 }
 
 .image1 {
@@ -110,5 +109,5 @@ body {
 }
 
 img {
-    width: 18vw;
+    width: 15vw;
 }
