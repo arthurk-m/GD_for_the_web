@@ -36,6 +36,8 @@ body {
     background-image: url(exhibition.jpg);
     display: grid;
     grid-template-columns: auto auto auto;
+    width: 100%;
+    max-width: 10vw;
 }
 
 .image1 {
@@ -105,4 +107,8 @@ body {
     padding-top: 10px;
     padding-right: 10px;
     border-radius: 25px;
+}
+
+img {
+    width: 18vw;
 }
