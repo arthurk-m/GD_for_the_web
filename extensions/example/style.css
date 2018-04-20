@@ -4,10 +4,18 @@
 
 .gradient {
   background: linear-gradient(135deg, #ff0000 1%,#fff200 20%,#00ffdd 40%,#090df9 60%,#ff0af6 80%,#ff0004 100%);
-  color: white;
 }
 
 .dog {
-  background-image: url('http://www.freepngimg.com/download/snapchat_filters/7-2-snapchat-filters-png-file.png');
-  z-index: 2000;
+  background: aqua;
 }
+
+.rotate {
+  transform: rotate(20deg);
+}
+
+.transparent {
+  opacity: 50%;
+  background-blend-mode: saturation;
+}
+
