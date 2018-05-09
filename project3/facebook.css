@@ -1,5 +1,61 @@
 .grid-container {
     display: grid;
-    grid-template-columns: ;
-    grid
+    grid-template-columns: 15px auto 15px auto 15px auto 15px;
+    grid-template-rows: 100px 100px 10px auto 10px 100px; 
+}
+
+#heading {
+    grid-column: 1 / 8;
+    grid-row: 1 / 2;
+    background-color: blue;
+}
+
+#facebook-container {
+    grid-column: 1 /8;
+    grid-row: 2 / 3;
+    background-color: tomato;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#ad-container {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+    background-color: yellow;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+#history-container {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+    background-color: red;
+    /* max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; */
+}
+
+#profit-container {
+    grid-column: 6 / 7;
+    grid-row: 4 / 5;
+    background-color: blueviolet;
+    /* max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; */
+}
+
+#text-container1 {
+    grid-column: 2 / 3;
+    grid-row: 6 / 7;
+}
+
+#text-container2 {
+    grid-column: 4 / 5;
+    grid-row: 6 / 7;
+}
+
+#text-container3 {
+    grid-column: 6 / 7;
+    grid-row: 6 / 7;
 }
