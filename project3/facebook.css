@@ -19,10 +19,6 @@ a:hover {
     grid-row: 1 / 2;
 }
 
-#eye {
-    grid-column: 4 / 5;
-    grid-row: 1 / 2;
-}
 #facebook-container {
     grid-column: 2 / 7;
     grid-row: 2 / 3; 
@@ -71,15 +67,16 @@ a:hover {
 
 #security-container {
     display: grid;
-    grid-template-columns: 100px auto 400px auto 100px;
-    grid-template-rows: 100px 100px auto 100px 100px;
+    grid-template-columns: 200px auto 400px auto 200px;
+    grid-template-rows: 50px 100px auto 100px 100px;
     z-index: -1000;
 }
 
 #security {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
-    background-color: azure
+    background-color: azure;
+    text-align: center;
 }
 
 #security-image {
@@ -104,6 +101,7 @@ a:hover {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
     background-color: chartreuse;
+    text-align: center;
 }
 
 #cambridge-image1 {
@@ -154,4 +152,73 @@ a:hover {
 .center {
     text-align: center;
     line-height: 0.5px;
+}
+
+#eye {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    border: 1px solid green;
+    /* grid-column: 4 / 5;
+    grid-row: 1 / 2; */
+}
+
+#eye0 {
+    position: absolute;
+}
+
+#eye1, #eye2, #eye3, #eye4, #eye5 {
+    visibility: hidden;
+    z-index: 1000;
+    position: absolute;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    #eye0 {
+        visibility: hidden;
+    }
+    #eye1 {
+        visibility:  visible;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 999px) {
+    #eye0 {
+        visibility: hidden;
+    }
+
+    #eye2 {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 699px) {
+    #eye0 {
+        visibility: hidden;
+    }
+
+    #eye3 {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 499px) {
+    #eye0 {
+        visibility: hidden;
+    }
+
+    #eye4 {
+        visibility: visible;
+    }
+}
+
+@media (min-width: 100px) and (max-width: 299px) {
+    #eye0 {
+        visibility: hidden;
+    }
+
+    #eye5 {
+        visibility: visible;
+    }
 }
