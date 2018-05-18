@@ -19,13 +19,17 @@ $(document).ready(function(){
     });
 });
 
-$.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
-  console.log(JSON.stringify(data, null, 2));
+// $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
+//   console.log(JSON.stringify(data, null, 2));
+// });
+
+$.getJSON('https://api.ipdata.co', function(data) {
+    $('#ipaddress').html(JSON.stringify(data, null, 2));
 });
 
-$.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
-  $('#ipaddress').html(JSON.stringify(data, null, 2));
-});
+// $.getJSON('http://gd.geobytes.com/GetCityDetails?callback=?', function(data) {
+//   $('#ipaddress').html(JSON.stringify(data, null, 2));
+// });
 // var ipAddress = 'http://gd.geobytes.com/GetCityDetails?callback=?'>
 // alert (ipAddress);
 
