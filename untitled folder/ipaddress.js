@@ -15,7 +15,7 @@ $(document).ready(function(){
 $(document).ready(function(){
     $('#eye').mousedown(function(){
     $('body').toggleClass('invert');
-    console.log("is this working arthur")
+    console.log("is this working??")
     });
 });
 
@@ -55,6 +55,6 @@ console.log("hello")
 $(document).ready(function(){
     $('form').keypress(function(event) {
         $('.facebookLock').addClass('blur');
-        console.log("lol")
+        console.log("lol arthur why are you like this")
     });
 });
